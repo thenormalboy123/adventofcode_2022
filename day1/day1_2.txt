@@ -1,0 +1,27 @@
+import argparse
+import sys
+import math
+
+
+if __name__ == '__main__':
+    file1 = open('input.txt', 'r')
+    Lines = file1.readlines()
+    highest_calorie_elf = 0
+    highest_calorie = 0
+    current_elf_number = 1
+    current_calorie_count = 0
+    top3calories = []
+    arrayentry = 0
+    sum=0
+    for line in Lines: 
+        if (len(line.strip()) == 0):
+            top3calories.append(current_calorie_count)
+            current_elf_number += 1
+            current_calorie_count = 0
+        else:
+            current_calorie_count += int(line.strip())
+    top3calories.sort(reverse=True)
+    for j in range(3):
+        sum += top3calories[j]
+    print(sum)
+    
