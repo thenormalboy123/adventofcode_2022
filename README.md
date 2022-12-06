@@ -10,5 +10,5 @@ I will include comments when I have the time to
 
 To run the code: 
 1) download python file and the corresponding input.txt and place them in the same folder 
-2) open terminal / cmd prompt on that directory 
+2) open terminal / cmd on that directory 
 3) run py ./<filename.py>
