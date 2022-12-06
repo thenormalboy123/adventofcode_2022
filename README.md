@@ -1,6 +1,7 @@
 # adventofcode_2022
 
-Hello! This is just a repo for me to upload all my codes that I submitted for Advent Of Code 2022 
+Hello! This is just a repo for me to upload all my codes that I submitted for Advent Of Code 2022. 
+All codes are written in python.
 
 All the challenges can be found <a href= "https://adventofcode.com/2022/"> here </a> 
 
