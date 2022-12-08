@@ -12,3 +12,7 @@ To run the code:
 1) download python file and the corresponding input.txt and place them in the same folder 
 2) open terminal / cmd on that directory 
 3) run py ./<filename.py>
+
+
+<b>HUGE DISCLAIMER: I am not a pro at programming!</b>
+But hopefully through this event I can improve and learn from the rest!
